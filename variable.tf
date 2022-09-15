@@ -1,5 +1,5 @@
 variable "rules" {
-  description = "Panorama API Key"
+  description = "Rules To Be Applied for Application"
   type = map(object({ app = string
     source = object({
       ip-netmask = list(string)
